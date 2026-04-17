@@ -1,0 +1,11 @@
+{
+  "name": "cpo-prototype",
+  "version": "1.0.0",
+  "description": "DESNZ CPO Stateful Clickable Prototype",
+  "scripts": {
+    "start": "live-server"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
