@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "DESNZ CPO Stateful Clickable Prototype",
   "scripts": {
-    "start": "live-server"
+    "start": "serve -s . -l tcp://0.0.0.0:$PORT",
+    "dev": "live-server"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
   },
   "devDependencies": {
     "live-server": "^1.2.2"
